@@ -1,0 +1,90 @@
+   1              	 .syntax unified
+   2              	 .cpu cortex-m4
+   3              	 .eabi_attribute 27,3
+   4              	 .fpu fpv4-sp-d16
+   5              	 .eabi_attribute 20,1
+   6              	 .eabi_attribute 21,1
+   7              	 .eabi_attribute 23,3
+   8              	 .eabi_attribute 24,1
+   9              	 .eabi_attribute 25,1
+  10              	 .eabi_attribute 26,1
+  11              	 .eabi_attribute 30,6
+  12              	 .eabi_attribute 34,1
+  13              	 .eabi_attribute 18,4
+  14              	 .thumb
+  15              	 .file "digital_io_conf.c"
+  16              	 .text
+  17              	.Ltext0:
+  18              	 .cfi_sections .debug_frame
+  19              	 .global TLE94112_ENABLE
+  20              	 .section .rodata.TLE94112_ENABLE,"a",%progbits
+  21              	 .align 2
+  24              	TLE94112_ENABLE:
+  25 0000 00810248 	 .word 1208123648
+  26 0004 80       	 .byte -128
+  27 0005 000000   	 .space 3
+  28 0008 01000000 	 .word 1
+  29 000c 00000000 	 .space 4
+  30 0010 0A       	 .byte 10
+  31 0011 00       	 .byte 0
+  32 0012 0000     	 .space 2
+  33              	 .global TLE94112_CS
+  34              	 .section .rodata.TLE94112_CS,"a",%progbits
+  35              	 .align 2
+  38              	TLE94112_CS:
+  39 0000 00830248 	 .word 1208124160
+  40 0004 80       	 .byte -128
+  41 0005 000000   	 .space 3
+  42 0008 01000000 	 .word 1
+  43 000c 00000000 	 .space 4
+  44 0010 0A       	 .byte 10
+  45 0011 00       	 .byte 0
+  46 0012 0000     	 .space 2
+  47              	 .global RED_LED
+  48              	 .section .rodata.RED_LED,"a",%progbits
+  49              	 .align 2
+  52              	RED_LED:
+  53 0000 00850248 	 .word 1208124672
+  54 0004 80       	 .byte -128
+  55 0005 000000   	 .space 3
+  56 0008 00000100 	 .word 65536
+  57 000c 07       	 .byte 7
+  58 000d 000000   	 .space 3
+  59 0010 05       	 .byte 5
+  60 0011 00       	 .byte 0
+  61 0012 0000     	 .space 2
+  62              	 .global GREEN_LED
+  63              	 .section .rodata.GREEN_LED,"a",%progbits
+  64              	 .align 2
+  67              	GREEN_LED:
+  68 0000 00850248 	 .word 1208124672
+  69 0004 80       	 .byte -128
+  70 0005 000000   	 .space 3
+  71 0008 00000100 	 .word 65536
+  72 000c 07       	 .byte 7
+  73 000d 000000   	 .space 3
+  74 0010 06       	 .byte 6
+  75 0011 00       	 .byte 0
+  76 0012 0000     	 .space 2
+  77              	 .text
+  78              	.Letext0:
+  79              	 .file 1 "c:\\users\\forge-15r\\dave-ide-4.4.2-64bit\\eclipse\\arm-gcc-49\\arm-none-eabi\\include\\machine\\_default_types.h"
+  80              	 .file 2 "c:\\users\\forge-15r\\dave-ide-4.4.2-64bit\\eclipse\\arm-gcc-49\\arm-none-eabi\\include\\stdint.h"
+  81              	 .file 3 "C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Libraries/XMCLib/inc/xmc_gpio.h"
+  82              	 .file 4 "C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Libraries/XMCLib/inc/xmc4_gpio.h"
+  83              	 .file 5 "../Dave/Generated/DIGITAL_IO/digital_io.h"
+  84              	 .file 6 "C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Libraries/CMSIS/Include/cmsis_gcc.h"
+  85              	 .file 7 "C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Libraries/CMSIS/Include/core_cm4.h"
+  86              	 .file 8 "../Dave/Generated/DIGITAL_IO/digital_io_conf.c"
+DEFINED SYMBOLS
+                            *ABS*:00000000 digital_io_conf.c
+    {standard input}:24     .rodata.TLE94112_ENABLE:00000000 TLE94112_ENABLE
+    {standard input}:21     .rodata.TLE94112_ENABLE:00000000 $d
+    {standard input}:38     .rodata.TLE94112_CS:00000000 TLE94112_CS
+    {standard input}:35     .rodata.TLE94112_CS:00000000 $d
+    {standard input}:52     .rodata.RED_LED:00000000 RED_LED
+    {standard input}:49     .rodata.RED_LED:00000000 $d
+    {standard input}:67     .rodata.GREEN_LED:00000000 GREEN_LED
+    {standard input}:64     .rodata.GREEN_LED:00000000 $d
+
+NO UNDEFINED SYMBOLS
