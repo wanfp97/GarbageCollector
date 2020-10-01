@@ -61,28 +61,13 @@
  * EXTERN DECLARATIONS
 ***********************************************************************************************************************/
 
-/* Extern declaration for FORWARD_INTERRUPT */
-extern const PIN_INTERRUPT_t FORWARD_INTERRUPT;
-
-/* Extern declaration for BACKWARD_INTERRUPT */
-extern const PIN_INTERRUPT_t BACKWARD_INTERRUPT;
-
-/* Extern declaration for LEFT_INTERRUPT */
-extern const PIN_INTERRUPT_t LEFT_INTERRUPT;
-
-/* Extern declaration for RIGHT_INTERRUPT */
-extern const PIN_INTERRUPT_t RIGHT_INTERRUPT;
-
-/* Extern declaration for LIFT_INTERRUPT */
-extern const PIN_INTERRUPT_t LIFT_INTERRUPT;
-
-/* Extern declaration for OPEN_INTERRUPT */
-extern const PIN_INTERRUPT_t OPEN_INTERRUPT;
-
-/* Extern declaration for CLOSE_INTERRUPT */
-extern const PIN_INTERRUPT_t CLOSE_INTERRUPT;
-
 /* Extern declaration for ROTATE_INTERRUPT */
 extern const PIN_INTERRUPT_t ROTATE_INTERRUPT;
+
+/* Extern declaration for DIRECTION_INTERRUPT */
+extern const PIN_INTERRUPT_t DIRECTION_INTERRUPT;
+
+/* Extern declaration for CLAMP_INTERRUPT */
+extern const PIN_INTERRUPT_t CLAMP_INTERRUPT;
 
 #endif /* End of PIN_INTERRUPT_EXTERN_H */

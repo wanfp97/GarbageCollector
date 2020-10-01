@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<ResourceModel:App xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ResourceModel="http://www.infineon.com/Davex/Resource.ecore" name="PIN_INTERRUPT" URI="http://resources/4.0.2/app/PIN_INTERRUPT/5" description="The PIN_INTERRUPT APP invokes user interrupt handler in a response &#xA;to rising and/or falling edge event signal on a pin." mode="NOTSHARABLE" version="4.0.2" minDaveVersion="4.0.0" instanceLabel="OPEN_INTERRUPT" appLabel="">
+<ResourceModel:App xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ResourceModel="http://www.infineon.com/Davex/Resource.ecore" name="PIN_INTERRUPT" URI="http://resources/4.0.2/app/PIN_INTERRUPT/5" description="The PIN_INTERRUPT APP invokes user interrupt handler in a response &#xA;to rising and/or falling edge event signal on a pin." mode="NOTSHARABLE" version="4.0.2" minDaveVersion="4.0.0" instanceLabel="DIRECTION_INTERRUPT" appLabel="">
   <properties provideInit="true"/>
   <virtualSignals name="signal_a_b" URI="http://resources/4.0.2/app/PIN_INTERRUPT/5/vs_pin_interrupt_input_A_B" hwResource="//@hwResources.2" visible="true" solverVariableName="sv0" solverVariableValue="b"/>
   <virtualSignals name="external_event_pin" URI="http://resources/4.0.2/app/PIN_INTERRUPT/5/vs_pin_interrupt_iopad" hwSignal="pad" hwResource="//@hwResources.1"/>
@@ -17,10 +17,10 @@
     <downwardMapList xsi:type="ResourceModel:ResourceGroup" href="../../../HW_RESOURCES/cpu/cpu_0.dd#//@provided.29"/>
   </hwResources>
   <hwResources name="Pin" URI="http://resources/4.0.2/app/PIN_INTERRUPT/5/hwres_port_pin" resourceGroupUri="port/p/*/pad/*" mResGrpUri="port/p/*/pad/*">
-    <downwardMapList xsi:type="ResourceModel:ResourceGroup" href="../../../HW_RESOURCES/port0/port0_0.dd#//@provided.36"/>
+    <downwardMapList xsi:type="ResourceModel:ResourceGroup" href="../../../HW_RESOURCES/port0/port0_0.dd#//@provided.28"/>
   </hwResources>
   <hwResources name="ers_etl" URI="http://resources/4.0.2/app/PIN_INTERRUPT/5/hwres_eru_ers_etl" resourceGroupUri="peripheral/eru/*/ers_etl/*" mResGrpUri="peripheral/eru/*/ers_etl/*">
-    <downwardMapList xsi:type="ResourceModel:ResourceGroup" href="../../../HW_RESOURCES/eru0/eru0_0.dd#//@provided.33"/>
+    <downwardMapList xsi:type="ResourceModel:ResourceGroup" href="../../../HW_RESOURCES/eru0/eru0_0.dd#//@provided.27"/>
   </hwResources>
   <hwResources name="ogu" URI="http://resources/4.0.2/app/PIN_INTERRUPT/5/hwres_eru_ogu" resourceGroupUri="peripheral/eru/*/ogu/*" mResGrpUri="peripheral/eru/*/ogu/*">
     <downwardMapList xsi:type="ResourceModel:ResourceGroup" href="../../../HW_RESOURCES/eru0/eru0_0.dd#//@provided.7"/>
@@ -28,8 +28,8 @@
   <hwResources name="erunmi" URI="http://resources/4.0.2/app/PIN_INTERRUPT/5/hwres_scu_gcu_interrupt_erunmi" resourceGroupUri="peripheral/scu/*/gcu/interrupt/erunmi/*" mResGrpUri="peripheral/scu/*/gcu/interrupt/erunmi/*">
     <downwardMapList xsi:type="ResourceModel:ResourceGroup" href="../../../HW_RESOURCES/SCU/SCU_0.dd#//@provided.16"/>
   </hwResources>
-  <hwResources name="Pin" URI="http://resources/4.0.2/app/PIN_INTERRUPT/5/__pin_hwres_port_pin" resourceGroupUri="devicepackage/0/4" constraintType="GLOBAL_RESOURCE" mResGrpUri="devicepackage/0/*">
-    <downwardMapList xsi:type="ResourceModel:ResourceGroup" href="../../../HW_RESOURCES/DEVICEPACKAGE/DEVICEPACKAGE_0.dd#//@provided.31"/>
+  <hwResources name="Pin" URI="http://resources/4.0.2/app/PIN_INTERRUPT/5/__pin_hwres_port_pin" resourceGroupUri="devicepackage/0/142" constraintType="GLOBAL_RESOURCE" mResGrpUri="devicepackage/0/*">
+    <downwardMapList xsi:type="ResourceModel:ResourceGroup" href="../../../HW_RESOURCES/DEVICEPACKAGE/DEVICEPACKAGE_0.dd#//@provided.23"/>
   </hwResources>
   <connections URI="http://resources/4.0.2/app/PIN_INTERRUPT/5/http://resources/4.0.2/app/PIN_INTERRUPT/5/vs_pin_interrupt_iopad/http://resources/4.0.2/app/PIN_INTERRUPT/5/vs_pin_interrupt_input_A_B" systemDefined="true" sourceSignal="external_event_pin" targetSignal="signal_a_b" srcVirtualSignal="//@virtualSignals.1" targetVirtualSignal="//@virtualSignals.0"/>
   <connections URI="http://resources/4.0.2/app/PIN_INTERRUPT/5/http://resources/4.0.2/app/PIN_INTERRUPT/5/vs_pin_interrupt_TriggerPulse/http://resources/4.0.2/app/PIN_INTERRUPT/5/vs_pin_interrupt_trin" systemDefined="true" sourceSignal="trigger_out" targetSignal="trigger_in" srcVirtualSignal="//@virtualSignals.2" targetVirtualSignal="//@virtualSignals.3"/>

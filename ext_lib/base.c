@@ -1,12 +1,7 @@
 #include "base.h"
 
-int32_t TLE94112EL_SetHBRegdata(const TLE94112EL_t *const handler, uint8_t TLE94112EL_HB_ACT_X_CTRL, uint8_t regdata)
+void TLE94112EL_SetHBRegdata(const TLE94112EL_t *const handler, uint8_t TLE94112EL_HB_ACT_X_CTRL, uint8_t regdata)
 {
-  if ((TLE94112EL_HB_ACT_X_CTRL >= 0x04)|(TLE94112EL_HB_ACT_X_CTRL <= 0x00))
-  {
-	return -1;
-  }
-
   uint8_t tx_data[2];
   uint8_t rx_data[2];
   uint8_t addr;
@@ -30,9 +25,19 @@ int32_t TLE94112EL_SetHBRegdata(const TLE94112EL_t *const handler, uint8_t TLE94
 	  //write
 	  tx_data[0] = addr | 0x80;
 	  tx_data[1] = regdata;
-
 	  handler->spi_transfer(tx_data, rx_data);
-
-  return rx_data[0];
 }
+
+void TLE94112EL_SetRegdata(const TLE94112EL_t *const handler, uint8_t TLE_REG, uint8_t regdata)
+{
+	  uint8_t tx_data[2];
+	  uint8_t rx_data[2];
+	  uint8_t addr = TLE_REG;
+
+	  //write
+	  tx_data[0] = addr | 0x80;
+	  tx_data[1] = regdata;
+	  handler->spi_transfer(tx_data, rx_data);
+}
+
 

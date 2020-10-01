@@ -1094,9 +1094,9 @@
  823              	.Letext0:
  824              	 .file 2 "c:\\users\\forge-15r\\dave-ide-4.4.2-64bit\\eclipse\\arm-gcc-49\\arm-none-eabi\\include\\machine\\_default_types.h"
  825              	 .file 3 "c:\\users\\forge-15r\\dave-ide-4.4.2-64bit\\eclipse\\arm-gcc-49\\arm-none-eabi\\include\\stdint.h"
- 826              	 .file 4 "C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Libraries/XMCLib/inc/xmc_eru.h"
- 827              	 .file 5 "C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Libraries/CMSIS/Include/cmsis_gcc.h"
- 828              	 .file 6 "C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Libraries/CMSIS/Include/core_cm4.h"
+ 826              	 .file 4 "C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Libraries/XMCLib/inc/xmc_eru.h"
+ 827              	 .file 5 "C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Libraries/CMSIS/Include/cmsis_gcc.h"
+ 828              	 .file 6 "C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Libraries/CMSIS/Include/core_cm4.h"
 DEFINED SYMBOLS
                             *ABS*:00000000 xmc_eru.c
     {standard input}:20     .text.XMC_ERU_ETL_Init:00000000 $t

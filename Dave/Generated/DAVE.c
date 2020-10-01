@@ -89,53 +89,13 @@ __WEAK DAVE_STATUS_t DAVE_Init(void)
    } 
   if (init_status == DAVE_STATUS_SUCCESS)
   {
-	 /**  Initialization of PIN_INTERRUPT APP instance FORWARD_INTERRUPT */
-	 init_status = (DAVE_STATUS_t)PIN_INTERRUPT_Init(&FORWARD_INTERRUPT); 
-   } 
-  if (init_status == DAVE_STATUS_SUCCESS)
-  {
-	 /**  Initialization of PIN_INTERRUPT APP instance BACKWARD_INTERRUPT */
-	 init_status = (DAVE_STATUS_t)PIN_INTERRUPT_Init(&BACKWARD_INTERRUPT); 
-   } 
-  if (init_status == DAVE_STATUS_SUCCESS)
-  {
-	 /**  Initialization of PIN_INTERRUPT APP instance LEFT_INTERRUPT */
-	 init_status = (DAVE_STATUS_t)PIN_INTERRUPT_Init(&LEFT_INTERRUPT); 
-   } 
-  if (init_status == DAVE_STATUS_SUCCESS)
-  {
-	 /**  Initialization of PIN_INTERRUPT APP instance RIGHT_INTERRUPT */
-	 init_status = (DAVE_STATUS_t)PIN_INTERRUPT_Init(&RIGHT_INTERRUPT); 
-   } 
-  if (init_status == DAVE_STATUS_SUCCESS)
-  {
-	 /**  Initialization of PIN_INTERRUPT APP instance LIFT_INTERRUPT */
-	 init_status = (DAVE_STATUS_t)PIN_INTERRUPT_Init(&LIFT_INTERRUPT); 
-   } 
-  if (init_status == DAVE_STATUS_SUCCESS)
-  {
-	 /**  Initialization of PIN_INTERRUPT APP instance OPEN_INTERRUPT */
-	 init_status = (DAVE_STATUS_t)PIN_INTERRUPT_Init(&OPEN_INTERRUPT); 
-   } 
-  if (init_status == DAVE_STATUS_SUCCESS)
-  {
-	 /**  Initialization of PIN_INTERRUPT APP instance CLOSE_INTERRUPT */
-	 init_status = (DAVE_STATUS_t)PIN_INTERRUPT_Init(&CLOSE_INTERRUPT); 
-   } 
-  if (init_status == DAVE_STATUS_SUCCESS)
-  {
 	 /**  Initialization of PIN_INTERRUPT APP instance ROTATE_INTERRUPT */
 	 init_status = (DAVE_STATUS_t)PIN_INTERRUPT_Init(&ROTATE_INTERRUPT); 
    } 
   if (init_status == DAVE_STATUS_SUCCESS)
   {
-	 /**  Initialization of DIGITAL_IO APP instance RED_LED */
-	 init_status = (DAVE_STATUS_t)DIGITAL_IO_Init(&RED_LED); 
-   } 
-  if (init_status == DAVE_STATUS_SUCCESS)
-  {
-	 /**  Initialization of DIGITAL_IO APP instance GREEN_LED */
-	 init_status = (DAVE_STATUS_t)DIGITAL_IO_Init(&GREEN_LED); 
+	 /**  Initialization of PIN_INTERRUPT APP instance DIRECTION_INTERRUPT */
+	 init_status = (DAVE_STATUS_t)PIN_INTERRUPT_Init(&DIRECTION_INTERRUPT); 
    } 
   if (init_status == DAVE_STATUS_SUCCESS)
   {
@@ -151,6 +111,41 @@ __WEAK DAVE_STATUS_t DAVE_Init(void)
   {
 	 /**  Initialization of PWM APP instance PWM_ROTATE */
 	 init_status = (DAVE_STATUS_t)PWM_Init(&PWM_ROTATE); 
+   } 
+  if (init_status == DAVE_STATUS_SUCCESS)
+  {
+	 /**  Initialization of PIN_INTERRUPT APP instance CLAMP_INTERRUPT */
+	 init_status = (DAVE_STATUS_t)PIN_INTERRUPT_Init(&CLAMP_INTERRUPT); 
+   } 
+  if (init_status == DAVE_STATUS_SUCCESS)
+  {
+	 /**  Initialization of BUS_IO APP instance DIRECTION_BUS_IO */
+	 init_status = (DAVE_STATUS_t)BUS_IO_Init(&DIRECTION_BUS_IO); 
+   } 
+  if (init_status == DAVE_STATUS_SUCCESS)
+  {
+	 /**  Initialization of BUS_IO APP instance CLAMP_BUS_IO */
+	 init_status = (DAVE_STATUS_t)BUS_IO_Init(&CLAMP_BUS_IO); 
+   } 
+  if (init_status == DAVE_STATUS_SUCCESS)
+  {
+	 /**  Initialization of BUS_IO APP instance LED_BUS_IO */
+	 init_status = (DAVE_STATUS_t)BUS_IO_Init(&LED_BUS_IO); 
+   } 
+  if (init_status == DAVE_STATUS_SUCCESS)
+  {
+	 /**  Initialization of DIGITAL_IO APP instance DIGITAL_IO_0 */
+	 init_status = (DAVE_STATUS_t)DIGITAL_IO_Init(&DIGITAL_IO_0); 
+   } 
+  if (init_status == DAVE_STATUS_SUCCESS)
+  {
+	 /**  Initialization of DIGITAL_IO APP instance MOTOR_HIGH */
+	 init_status = (DAVE_STATUS_t)DIGITAL_IO_Init(&MOTOR_HIGH); 
+   } 
+  if (init_status == DAVE_STATUS_SUCCESS)
+  {
+	 /**  Initialization of DIGITAL_IO APP instance MOTOR_LOW */
+	 init_status = (DAVE_STATUS_t)DIGITAL_IO_Init(&MOTOR_LOW); 
    }  
   return init_status;
 } /**  End of function DAVE_Init */

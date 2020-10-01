@@ -181,7 +181,7 @@ const SPI_MASTER_GPIO_CONFIG_t SPI_MASTER_0_SCLKOUT_Config =
 const SPI_MASTER_GPIO_t SPI_MASTER_0_SS_0 =
 {
 .port = (XMC_GPIO_PORT_t *)PORT5_BASE,
-.pin  = (uint8_t)4
+.pin  = (uint8_t)6
 };
 
 const SPI_MASTER_GPIO_CONFIG_t SPI_MASTER_0_SS_0_Config =
@@ -192,7 +192,7 @@ const SPI_MASTER_GPIO_CONFIG_t SPI_MASTER_0_SS_0_Config =
     .output_level = XMC_GPIO_OUTPUT_LEVEL_HIGH,
     .output_strength = XMC_GPIO_OUTPUT_STRENGTH_STRONG_MEDIUM_EDGE
   },
-  .slave_select_ch = XMC_SPI_CH_SLAVE_SELECT_1
+  .slave_select_ch = XMC_SPI_CH_SLAVE_SELECT_3
 };
 
 XMC_SPI_CH_CONFIG_t SPI_MASTER_0_Channel_Config =
@@ -316,8 +316,8 @@ static SPI_MASTER_STATUS_t SPI_MASTER_0_lInit(void)
   XMC_GPIO_Init((XMC_GPIO_PORT_t *)PORT3_BASE, (uint8_t)9, &SPI_MASTER_0_SCLKOUT_Config.port_config);
 
   /* Configure the pin properties */
-  XMC_GPIO_Init((XMC_GPIO_PORT_t *)PORT5_BASE, (uint8_t)4, &SPI_MASTER_0_SS_0_Config.port_config);
-  XMC_SPI_CH_EnableSlaveSelect(XMC_SPI2_CH0, XMC_SPI_CH_SLAVE_SELECT_1);
+  XMC_GPIO_Init((XMC_GPIO_PORT_t *)PORT5_BASE, (uint8_t)6, &SPI_MASTER_0_SS_0_Config.port_config);
+  XMC_SPI_CH_EnableSlaveSelect(XMC_SPI2_CH0, XMC_SPI_CH_SLAVE_SELECT_3);
 
   XMC_USIC_CH_SetInterruptNodePointer(XMC_SPI2_CH0,
                                       XMC_USIC_CH_INTERRUPT_NODE_POINTER_PROTOCOL,

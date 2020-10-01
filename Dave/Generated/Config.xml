@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Project MotherSystem_Version="" Name="Garbage_collector" Path="C:\Workspaces\DAVE-4.4.2-64Bit\test\Garbage_collector">
+<Project MotherSystem_Version="" Name="Garbage_collector" Path="C:\Workspaces\DAVE-4.4.2-64Bit\GarbageCollector\Garbage_collector">
     <COMPILER>
         <Name>ARM_GCC_HOME</Name>
         <Version/>
@@ -11,6 +11,16 @@
     </DEVICE>
     <Generated_Files>
         <Source_Files>
+            <Source_File>
+                <File_Name>bus_io.c</File_Name>
+                <Path>\Dave\Generated\BUS_IO\bus_io.c</Path>
+                <Type>C File</Type>
+            </Source_File>
+            <Source_File>
+                <File_Name>bus_io_conf.c</File_Name>
+                <Path>\Dave\Generated\BUS_IO\bus_io_conf.c</Path>
+                <Type>C File</Type>
+            </Source_File>
             <Source_File>
                 <File_Name>clock_xmc4.c</File_Name>
                 <Path>\Dave\Generated\CLOCK_XMC4\clock_xmc4.c</Path>
@@ -153,6 +163,21 @@
             </Source_File>
         </Source_Files>
         <Header_Files>
+            <Header_File>
+                <File_Name>bus_io.h</File_Name>
+                <Path>\Dave\Generated\BUS_IO\bus_io.h</Path>
+                <Type>H File</Type>
+            </Header_File>
+            <Header_File>
+                <File_Name>bus_io_conf.h</File_Name>
+                <Path>\Dave\Generated\BUS_IO\bus_io_conf.h</Path>
+                <Type>H File</Type>
+            </Header_File>
+            <Header_File>
+                <File_Name>bus_io_extern.h</File_Name>
+                <Path>\Dave\Generated\BUS_IO\bus_io_extern.h</Path>
+                <Type>H File</Type>
+            </Header_File>
             <Header_File>
                 <File_Name>clock_xmc4.h</File_Name>
                 <Path>\Dave\Generated\CLOCK_XMC4\clock_xmc4.h</Path>

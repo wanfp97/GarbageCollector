@@ -19,6 +19,7 @@ TOOLCHAIN_ROOT :=
 
 # Every subdirectory with source files must be described here
 SUBDIRS := \
+Dave/Generated/BUS_IO \
 Dave/Generated/CLOCK_XMC4 \
 Dave/Generated/CPU_CTRL_XMC4 \
 Dave/Generated \

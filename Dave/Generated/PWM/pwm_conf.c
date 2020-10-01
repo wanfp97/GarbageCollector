@@ -108,7 +108,7 @@ const XMC_GPIO_CONFIG_t  PWM_CLAMP_gpio_out_config	=
 {
   .mode                = XMC_GPIO_MODE_OUTPUT_PUSH_PULL_ALT3,
   .output_level        = XMC_GPIO_OUTPUT_LEVEL_LOW,
-  .output_strength     = XMC_GPIO_OUTPUT_STRENGTH_MEDIUM
+  .output_strength     = XMC_GPIO_OUTPUT_STRENGTH_STRONG_SLOW_EDGE
 };
 
 /*
@@ -118,22 +118,22 @@ PWM_t PWM_CLAMP =
 {
   .global_ccu4_handle             = (GLOBAL_CCU4_t*)&GLOBAL_CCU4_0,
   .ccu4_kernel_ptr                = (XMC_CCU4_MODULE_t*) CCU43_BASE,
-  .ccu4_slice_ptr                 = (XMC_CCU4_SLICE_t*)  CCU43_CC40,
+  .ccu4_slice_ptr                 = (XMC_CCU4_SLICE_t*)  CCU43_CC42,
   .ccu4_slice_config_ptr          = &PWM_CLAMP_compare_config,
   .gpio_out_port                  = XMC_GPIO_PORT6,
   .gpio_out_config                = &PWM_CLAMP_gpio_out_config,
   .compare_value                  = 45000U,
   .period_value                   = 44999U,
   .duty_cycle                     = 0U,
-  .shadow_mask                    = (uint32_t)((uint32_t)XMC_CCU4_SHADOW_TRANSFER_SLICE_0 | 
-                                               (uint32_t)XMC_CCU4_SHADOW_TRANSFER_PRESCALER_SLICE_0),
+  .shadow_mask                    = (uint32_t)((uint32_t)XMC_CCU4_SHADOW_TRANSFER_SLICE_2 | 
+                                               (uint32_t)XMC_CCU4_SHADOW_TRANSFER_PRESCALER_SLICE_2),
   .timer_type                     = PWM_TIMER_SLICE_CCU4,
   .state                          = PWM_STATUS_UNINITIALIZED,
   .ccu4_slice_period_match_node   = XMC_CCU4_SLICE_SR_ID_0,
   .ccu4_slice_compare_match_node  = XMC_CCU4_SLICE_SR_ID_0,
-  .gpio_out_pin                   = (uint8_t) 5,
+  .gpio_out_pin                   = (uint8_t) 3,
   .kernel_number		          = (uint8_t) 3U,
-  .slice_number                   = (uint8_t) 0U,
+  .slice_number                   = (uint8_t) 2U,
   .start_control                  = true,
   .period_match_enable            = false,
   .compare_match_enable           = false,
@@ -168,7 +168,7 @@ const XMC_GPIO_CONFIG_t  PWM_LIFT_gpio_out_config	=
 {
   .mode                = XMC_GPIO_MODE_OUTPUT_PUSH_PULL_ALT3,
   .output_level        = XMC_GPIO_OUTPUT_LEVEL_LOW,
-  .output_strength     = XMC_GPIO_OUTPUT_STRENGTH_MEDIUM
+  .output_strength     = XMC_GPIO_OUTPUT_STRENGTH_STRONG_SLOW_EDGE
 };
 
 /*
@@ -214,7 +214,7 @@ const XMC_CCU4_SLICE_COMPARE_CONFIG_t PWM_ROTATE_compare_config =
   .dither_duty_cycle   = (uint32_t) 0,
   .prescaler_mode	   = (uint32_t) XMC_CCU4_SLICE_PRESCALER_MODE_NORMAL,
   .mcm_enable		   = (uint32_t) 0,
-  .prescaler_initval   = (uint32_t) 1,
+  .prescaler_initval   = (uint32_t) 6,
   .float_limit		   = (uint32_t) 0,
   .dither_limit		   = (uint32_t) 0,
   .passive_level 	   = (uint32_t) XMC_CCU4_SLICE_OUTPUT_PASSIVE_LEVEL_LOW,
@@ -228,7 +228,7 @@ const XMC_GPIO_CONFIG_t  PWM_ROTATE_gpio_out_config	=
 {
   .mode                = XMC_GPIO_MODE_OUTPUT_PUSH_PULL_ALT3,
   .output_level        = XMC_GPIO_OUTPUT_LEVEL_LOW,
-  .output_strength     = XMC_GPIO_OUTPUT_STRENGTH_MEDIUM
+  .output_strength     = XMC_GPIO_OUTPUT_STRENGTH_STRONG_SLOW_EDGE
 };
 
 /*
@@ -238,23 +238,23 @@ PWM_t PWM_ROTATE =
 {
   .global_ccu4_handle             = (GLOBAL_CCU4_t*)&GLOBAL_CCU4_2,
   .ccu4_kernel_ptr                = (XMC_CCU4_MODULE_t*) CCU42_BASE,
-  .ccu4_slice_ptr                 = (XMC_CCU4_SLICE_t*)  CCU42_CC41,
+  .ccu4_slice_ptr                 = (XMC_CCU4_SLICE_t*)  CCU42_CC43,
   .ccu4_slice_config_ptr          = &PWM_ROTATE_compare_config,
   .gpio_out_port                  = XMC_GPIO_PORT3,
   .gpio_out_config                = &PWM_ROTATE_gpio_out_config,
-  .compare_value                  = 24000U,
-  .period_value                   = 47999U,
-  .duty_cycle                     = 5000U,
-  .shadow_mask                    = (uint32_t)((uint32_t)XMC_CCU4_SHADOW_TRANSFER_SLICE_1 | 
-                                               (uint32_t)XMC_CCU4_SHADOW_TRANSFER_PRESCALER_SLICE_1),
+  .compare_value                  = 45000U,
+  .period_value                   = 44999U,
+  .duty_cycle                     = 0U,
+  .shadow_mask                    = (uint32_t)((uint32_t)XMC_CCU4_SHADOW_TRANSFER_SLICE_3 | 
+                                               (uint32_t)XMC_CCU4_SHADOW_TRANSFER_PRESCALER_SLICE_3),
   .timer_type                     = PWM_TIMER_SLICE_CCU4,
   .state                          = PWM_STATUS_UNINITIALIZED,
   .ccu4_slice_period_match_node   = XMC_CCU4_SLICE_SR_ID_0,
   .ccu4_slice_compare_match_node  = XMC_CCU4_SLICE_SR_ID_0,
-  .gpio_out_pin                   = (uint8_t) 13,
+  .gpio_out_pin                   = (uint8_t) 11,
   .kernel_number		          = (uint8_t) 2U,
-  .slice_number                   = (uint8_t) 1U,
-  .start_control                  = false,
+  .slice_number                   = (uint8_t) 3U,
+  .start_control                  = true,
   .period_match_enable            = false,
   .compare_match_enable           = false,
 };

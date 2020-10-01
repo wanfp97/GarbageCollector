@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <ResourceModel:Peripheral xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ResourceModel="http://www.infineon.com/Davex/Resource.ecore" URI="http://resources/48.0.0/peripheral/eru/0" description="Event Request Unit 0" baseAddress="0x50004800">
   <provided xsi:type="ResourceModel:ResourceGroup" name="0" URI="http://resources/48.0.0/peripheral/eru/0/ers_etl/0">
-    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/PIN_INTERRUPT/v4_0_2/PIN_INTERRUPT_1.app#//@hwResources.2"/>
     <resourcesList name="exicon" requiredResourceUri="http://resources/48.0.0/peripheral/eru/0/exicon0"/>
     <resourcesList name="exicon_ocs" requiredResourceUri="http://resources/48.0.0/peripheral/eru/0/exicon0/ocs"/>
     <resourcesList name="exicon_pe" requiredResourceUri="http://resources/48.0.0/peripheral/eru/0/exicon0/pe"/>
@@ -202,7 +201,7 @@
     <enumValues xsi:type="ResourceModel:RegEnumValue" value="#1" description="Flag EXICONx.FL is included in the pattern detection"/>
   </provided>
   <provided xsi:type="ResourceModel:ResourceGroup" name="2" URI="http://resources/48.0.0/peripheral/eru/0/ogu/2">
-    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/PIN_INTERRUPT/v4_0_2/PIN_INTERRUPT_2.app#//@hwResources.3"/>
+    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/PIN_INTERRUPT/v4_0_2/PIN_INTERRUPT_0.app#//@hwResources.3"/>
     <resourcesList name="exocon" requiredResourceUri="http://resources/48.0.0/peripheral/eru/0/exocon2"/>
     <resourcesList name="exocon_ipen0" requiredResourceUri="http://resources/48.0.0/peripheral/eru/0/exocon2/ipen0"/>
     <resourcesList name="exocon_ipen1" requiredResourceUri="http://resources/48.0.0/peripheral/eru/0/exocon2/ipen1"/>
@@ -277,7 +276,7 @@
     <enumValues xsi:type="ResourceModel:RegEnumValue" value="#11" description="Input ERU_OGUy3 is selected"/>
   </provided>
   <provided xsi:type="ResourceModel:ResourceGroup" name="3" URI="http://resources/48.0.0/peripheral/eru/0/ers_etl/3">
-    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/PIN_INTERRUPT/v4_0_2/PIN_INTERRUPT_2.app#//@hwResources.2"/>
+    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/PIN_INTERRUPT/v4_0_2/PIN_INTERRUPT_0.app#//@hwResources.2"/>
     <resourcesList name="exicon" requiredResourceUri="http://resources/48.0.0/peripheral/eru/0/exicon3"/>
     <resourcesList name="exicon_ocs" requiredResourceUri="http://resources/48.0.0/peripheral/eru/0/exicon3/ocs"/>
     <resourcesList name="exicon_pe" requiredResourceUri="http://resources/48.0.0/peripheral/eru/0/exicon3/pe"/>
@@ -353,7 +352,7 @@
     <enumValues xsi:type="ResourceModel:RegEnumValue" value="#011" description="Trigger pulses are sent to OGU3"/>
   </provided>
   <provided xsi:type="ResourceModel:ResourceGroup" name="2" URI="http://resources/48.0.0/peripheral/eru/0/ers_etl/2">
-    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/PIN_INTERRUPT/v4_0_2/PIN_INTERRUPT_0.app#//@hwResources.2"/>
+    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/PIN_INTERRUPT/v4_0_2/PIN_INTERRUPT_5.app#//@hwResources.2"/>
     <resourcesList name="exicon" requiredResourceUri="http://resources/48.0.0/peripheral/eru/0/exicon2"/>
     <resourcesList name="exicon_ocs" requiredResourceUri="http://resources/48.0.0/peripheral/eru/0/exicon2/ocs"/>
     <resourcesList name="exicon_pe" requiredResourceUri="http://resources/48.0.0/peripheral/eru/0/exicon2/pe"/>
@@ -429,7 +428,6 @@
     <enumValues xsi:type="ResourceModel:RegEnumValue" value="#11" description="Input ERU_2A3 is selected"/>
   </provided>
   <provided xsi:type="ResourceModel:ResourceGroup" name="1" URI="http://resources/48.0.0/peripheral/eru/0/ers_etl/1">
-    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/PIN_INTERRUPT/v4_0_2/PIN_INTERRUPT_5.app#//@hwResources.2"/>
     <resourcesList name="exicon" requiredResourceUri="http://resources/48.0.0/peripheral/eru/0/exicon1"/>
     <resourcesList name="exicon_ocs" requiredResourceUri="http://resources/48.0.0/peripheral/eru/0/exicon1/ocs"/>
     <resourcesList name="exicon_pe" requiredResourceUri="http://resources/48.0.0/peripheral/eru/0/exicon1/pe"/>
@@ -505,7 +503,6 @@
     <enumValues xsi:type="ResourceModel:RegEnumValue" value="#11" description="Input ERU_1A3 is selected"/>
   </provided>
   <provided xsi:type="ResourceModel:ResourceGroup" name="0" URI="http://resources/48.0.0/peripheral/eru/0/ogu/0">
-    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/PIN_INTERRUPT/v4_0_2/PIN_INTERRUPT_1.app#//@hwResources.3"/>
     <resourcesList name="exocon" requiredResourceUri="http://resources/48.0.0/peripheral/eru/0/exocon0"/>
     <resourcesList name="exocon_ipen0" requiredResourceUri="http://resources/48.0.0/peripheral/eru/0/exocon0/ipen0"/>
     <resourcesList name="exocon_ipen1" requiredResourceUri="http://resources/48.0.0/peripheral/eru/0/exocon0/ipen1"/>
@@ -580,7 +577,6 @@
     <enumValues xsi:type="ResourceModel:RegEnumValue" value="#1" description="Flag EXICONx.FL is included in the pattern detection"/>
   </provided>
   <provided xsi:type="ResourceModel:ResourceGroup" name="1" URI="http://resources/48.0.0/peripheral/eru/0/ogu/1">
-    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/PIN_INTERRUPT/v4_0_2/PIN_INTERRUPT_0.app#//@hwResources.3"/>
     <resourcesList name="exocon" requiredResourceUri="http://resources/48.0.0/peripheral/eru/0/exocon1"/>
     <resourcesList name="exocon_ipen0" requiredResourceUri="http://resources/48.0.0/peripheral/eru/0/exocon1/ipen0"/>
     <resourcesList name="exocon_ipen1" requiredResourceUri="http://resources/48.0.0/peripheral/eru/0/exocon1/ipen1"/>

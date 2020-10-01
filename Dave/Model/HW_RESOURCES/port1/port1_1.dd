@@ -129,7 +129,6 @@
   <provided xsi:type="ResourceModel:BitField" name="PC14_2_0" URI="http://resources/48.0.0/port/p/1/iocr12/pc14_2_0" value="0x00000000" toolTipHelpDescription="Port Control for Port n Pin 12 to 15" defaultValue="0x00000000" startPos="19" stopPos="21" accessPermission="rw" maxValue="7" minValue="0"/>
   <provided xsi:type="ResourceModel:BitField" name="PC14_4" URI="http://resources/48.0.0/port/p/1/iocr12/pc14_4" value="0x00000000" toolTipHelpDescription="Port Control for Port n Pin 12 to 15" defaultValue="0x00000000" startPos="23" stopPos="23" accessPermission="rw" maxValue="1" minValue="0"/>
   <provided xsi:type="ResourceModel:ResourceGroup" name="P1.15 / #94" URI="http://resources/48.0.0/port/p/1/pad/15">
-    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/PIN_INTERRUPT/v4_0_2/PIN_INTERRUPT_7.app#//@hwResources.1"/>
     <resourcesList name="hwsel_hw" requiredResourceUri="http://resources/48.0.0/port/p/1/hwsel/hw15"/>
     <resourcesList name="in_p" requiredResourceUri="http://resources/48.0.0/port/p/1/in/p15"/>
     <resourcesList name="iocr_oe" requiredResourceUri="http://resources/48.0.0/port/p/1/iocr12/pc15_4"/>
@@ -209,7 +208,7 @@
   <provided xsi:type="ResourceModel:BitField" name="PC10_4" URI="http://resources/48.0.0/port/p/1/iocr8/pc10_4" value="0x00000000" toolTipHelpDescription="Port Control for Port n Pin 8 to 11" defaultValue="0x00000000" startPos="23" stopPos="23" accessPermission="rw" maxValue="1" minValue="0"/>
   <provided xsi:type="ResourceModel:BitField" name="PC10_2_0" URI="http://resources/48.0.0/port/p/1/iocr8/pc10_2_0" value="0x00000000" toolTipHelpDescription="Port Control for Port n Pin 8 to 11" defaultValue="0x00000000" startPos="19" stopPos="21" accessPermission="rw" maxValue="7" minValue="0"/>
   <provided xsi:type="ResourceModel:ResourceGroup" name="P1.2 / #110" URI="http://resources/48.0.0/port/p/1/pad/2">
-    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/PIN_INTERRUPT/v4_0_2/PIN_INTERRUPT_6.app#//@hwResources.1"/>
+    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/BUS_IO/v4_0_2/BUS_IO_2.app#//@hwResources.1"/>
     <resourcesList name="hwsel_hw" requiredResourceUri="http://resources/48.0.0/port/p/1/hwsel/hw2"/>
     <resourcesList name="in_p" requiredResourceUri="http://resources/48.0.0/port/p/1/in/p2"/>
     <resourcesList name="iocr_oe" requiredResourceUri="http://resources/48.0.0/port/p/1/iocr0/pc2_4"/>
@@ -257,7 +256,6 @@
   </provided>
   <provided xsi:type="ResourceModel:BitField" name="PC2_2_0" URI="http://resources/48.0.0/port/p/1/iocr0/pc2_2_0" value="0x00000000" toolTipHelpDescription="Port Control for Port n Pin 0 to 3" defaultValue="0x00000000" startPos="19" stopPos="21" accessPermission="rw" maxValue="7" minValue="0"/>
   <provided xsi:type="ResourceModel:ResourceGroup" name="P1.5 / #107" URI="http://resources/48.0.0/port/p/1/pad/5">
-    <upwardMapList xsi:type="ResourceModel:HWResource" href="../../APPS/PIN_INTERRUPT/v4_0_2/PIN_INTERRUPT_4.app#//@hwResources.1"/>
     <resourcesList name="hwsel_hw" requiredResourceUri="http://resources/48.0.0/port/p/1/hwsel/hw5"/>
     <resourcesList name="in_p" requiredResourceUri="http://resources/48.0.0/port/p/1/in/p5"/>
     <resourcesList name="iocr_oe" requiredResourceUri="http://resources/48.0.0/port/p/1/iocr4/pc5_4"/>

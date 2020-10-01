@@ -19,13 +19,13 @@
   </requiredApps>
   <hwResources name="CC8 Slice" URI="http://resources/4.1.10/app/PWM/2/hwres_ccu8_cc8_slice" resourceGroupUri="" required="false" mResGrpUri="peripheral/ccu8/*/cc8/*"/>
   <hwResources name="CC4 Slice" URI="http://resources/4.1.10/app/PWM/2/hwres_ccu4_cc4_slice" resourceGroupUri="peripheral/ccu4/*/cc4/*" mResGrpUri="peripheral/ccu4/*/cc4/*">
-    <downwardMapList xsi:type="ResourceModel:ResourceGroup" href="../../../HW_RESOURCES/ccu42/ccu42_2.dd#//@provided.0"/>
+    <downwardMapList xsi:type="ResourceModel:ResourceGroup" href="../../../HW_RESOURCES/ccu42/ccu42_2.dd#//@provided.17"/>
   </hwResources>
   <hwResources name="PWM Output Pin" URI="http://resources/4.1.10/app/PWM/2/hwres_port_pad_pwm_out" resourceGroupUri="port/p/*/pad/*" mResGrpUri="port/p/*/pad/*">
-    <downwardMapList xsi:type="ResourceModel:ResourceGroup" href="../../../HW_RESOURCES/port3/port3_3.dd#//@provided.24"/>
+    <downwardMapList xsi:type="ResourceModel:ResourceGroup" href="../../../HW_RESOURCES/port3/port3_3.dd#//@provided.33"/>
   </hwResources>
-  <hwResources name="PWM Output Pin" URI="http://resources/4.1.10/app/PWM/2/__pin_hwres_port_pad_pwm_out" resourceGroupUri="devicepackage/0/8" constraintType="GLOBAL_RESOURCE" mResGrpUri="devicepackage/0/*">
-    <downwardMapList xsi:type="ResourceModel:ResourceGroup" href="../../../HW_RESOURCES/DEVICEPACKAGE/DEVICEPACKAGE_0.dd#//@provided.36"/>
+  <hwResources name="PWM Output Pin" URI="http://resources/4.1.10/app/PWM/2/__pin_hwres_port_pad_pwm_out" resourceGroupUri="devicepackage/0/10" constraintType="GLOBAL_RESOURCE" mResGrpUri="devicepackage/0/*">
+    <downwardMapList xsi:type="ResourceModel:ResourceGroup" href="../../../HW_RESOURCES/DEVICEPACKAGE/DEVICEPACKAGE_0.dd#//@provided.53"/>
   </hwResources>
   <connections URI="http://resources/4.1.10/app/PWM/2/http://resources/4.1.10/app/PWM/2/vs_pwm_ccu8_cc8_global/http://resources/4.1.10/app/PWM/2/vs_pwm_ccu8_cc8_slice_global" systemDefined="true" targetSignal="global_signal" required="false" targetVirtualSignal="//@virtualSignals.0" containingProxySignal="true"/>
   <connections URI="http://resources/4.1.10/app/PWM/2/http://resources/4.1.10/app/PWM/2/vs_pwm_ccu4_cc4_global/http://resources/4.1.10/app/PWM/2/vs_pwm_ccu4_cc4_slice_global" systemDefined="true" sourceSignal="ccu4_global" targetSignal="global_signal" targetVirtualSignal="//@virtualSignals.5" proxySrcVirtualSignalUri="http://resources/4.1.12/app/GLOBAL_CCU4/2/vs_global_ccu4_globalsignal" containingProxySignal="true">

@@ -78,27 +78,37 @@ const DIGITAL_IO_t TLE94112_CS =
   .hwctrl = XMC_GPIO_HWCTRL_DISABLED
 };
 		
-const DIGITAL_IO_t RED_LED =
+const DIGITAL_IO_t DIGITAL_IO_0 =
 {
-  .gpio_port = XMC_GPIO_PORT5,
-  .gpio_pin = 5U,
+  .gpio_port = XMC_GPIO_PORT3,
+  .gpio_pin = 4U,
   .gpio_config = {
     .mode = XMC_GPIO_MODE_OUTPUT_PUSH_PULL,
     .output_level = XMC_GPIO_OUTPUT_LEVEL_LOW,
-    .output_strength = XMC_GPIO_OUTPUT_STRENGTH_WEAK,
 
   },
   .hwctrl = XMC_GPIO_HWCTRL_DISABLED
 };
 		
-const DIGITAL_IO_t GREEN_LED =
+const DIGITAL_IO_t MOTOR_HIGH =
 {
-  .gpio_port = XMC_GPIO_PORT5,
-  .gpio_pin = 6U,
+  .gpio_port = XMC_GPIO_PORT0,
+  .gpio_pin = 12U,
   .gpio_config = {
     .mode = XMC_GPIO_MODE_OUTPUT_PUSH_PULL,
     .output_level = XMC_GPIO_OUTPUT_LEVEL_LOW,
-    .output_strength = XMC_GPIO_OUTPUT_STRENGTH_WEAK,
+
+  },
+  .hwctrl = XMC_GPIO_HWCTRL_DISABLED
+};
+		
+const DIGITAL_IO_t MOTOR_LOW =
+{
+  .gpio_port = XMC_GPIO_PORT3,
+  .gpio_pin = 12U,
+  .gpio_config = {
+    .mode = XMC_GPIO_MODE_OUTPUT_PUSH_PULL,
+    .output_level = XMC_GPIO_OUTPUT_LEVEL_LOW,
 
   },
   .hwctrl = XMC_GPIO_HWCTRL_DISABLED

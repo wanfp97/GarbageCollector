@@ -69,9 +69,11 @@ extern const DIGITAL_IO_t TLE94112_ENABLE;
 	
 extern const DIGITAL_IO_t TLE94112_CS; 
 	
-extern const DIGITAL_IO_t RED_LED; 
+extern const DIGITAL_IO_t DIGITAL_IO_0; 
 	
-extern const DIGITAL_IO_t GREEN_LED; 
+extern const DIGITAL_IO_t MOTOR_HIGH; 
+	
+extern const DIGITAL_IO_t MOTOR_LOW; 
 	
  
 #endif  /* DIGITAL_IO_EXTERN_H */

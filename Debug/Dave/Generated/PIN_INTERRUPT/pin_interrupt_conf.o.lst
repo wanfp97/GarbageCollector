@@ -16,220 +16,95 @@
   16              	 .text
   17              	.Ltext0:
   18              	 .cfi_sections .debug_frame
-  19              	 .global FORWARD_INTERRUPT
-  20              	 .section .rodata.FORWARD_INTERRUPT,"a",%progbits
+  19              	 .global ROTATE_INTERRUPT
+  20              	 .section .rodata.ROTATE_INTERRUPT,"a",%progbits
   21              	 .align 2
-  24              	FORWARD_INTERRUPT:
+  24              	ROTATE_INTERRUPT:
   25 0000 00480050 	 .word 1342195712
   26 0004 00800248 	 .word 1208123392
   27 0008 18       	 .byte 24
   28 0009 00000000 	 .space 11
   28      00000000 
   28      000000
-  29 0014 0C       	 .byte 12
+  29 0014 02       	 .byte 2
   30 0015 000000   	 .space 3
-  31 0018 1D       	 .byte 29
-  32 0019 01       	 .byte 1
+  31 0018 2D       	 .byte 45
+  32 0019 00       	 .byte 0
   33 001a 0000     	 .space 2
-  34 001c 02       	 .byte 2
+  34 001c 03       	 .byte 3
   35 001d 3F       	 .byte 63
   36 001e 00       	 .byte 0
-  37 001f 02       	 .byte 2
-  38 0020 01       	 .byte 1
-  39 0021 04       	 .byte 4
+  37 001f 03       	 .byte 3
+  38 0020 02       	 .byte 2
+  39 0021 0B       	 .byte 11
   40 0022 01       	 .byte 1
   41 0023 00       	 .space 1
-  42              	 .global BACKWARD_INTERRUPT
-  43              	 .section .rodata.BACKWARD_INTERRUPT,"a",%progbits
+  42              	 .global DIRECTION_INTERRUPT
+  43              	 .section .rodata.DIRECTION_INTERRUPT,"a",%progbits
   44              	 .align 2
-  47              	BACKWARD_INTERRUPT:
+  47              	DIRECTION_INTERRUPT:
   48 0000 00480050 	 .word 1342195712
   49 0004 00800248 	 .word 1208123392
   50 0008 18       	 .byte 24
   51 0009 00000000 	 .space 11
   51      00000000 
   51      000000
-  52 0014 00       	 .byte 0
+  52 0014 0C       	 .byte 12
   53 0015 000000   	 .space 3
-  54 0018 0D       	 .byte 13
-  55 0019 00       	 .byte 0
+  54 0018 3D       	 .byte 61
+  55 0019 01       	 .byte 1
   56 001a 0000     	 .space 2
-  57 001c 01       	 .byte 1
+  57 001c 04       	 .byte 4
   58 001d 3F       	 .byte 63
   59 001e 00       	 .byte 0
-  60 001f 00       	 .byte 0
-  61 0020 00       	 .byte 0
-  62 0021 01       	 .byte 1
+  60 001f 02       	 .byte 2
+  61 0020 03       	 .byte 3
+  62 0021 04       	 .byte 4
   63 0022 01       	 .byte 1
   64 0023 00       	 .space 1
-  65              	 .global LEFT_INTERRUPT
-  66              	 .section .rodata.LEFT_INTERRUPT,"a",%progbits
+  65              	 .global CLAMP_INTERRUPT
+  66              	 .section .rodata.CLAMP_INTERRUPT,"a",%progbits
   67              	 .align 2
-  70              	LEFT_INTERRUPT:
-  71 0000 00480050 	 .word 1342195712
+  70              	CLAMP_INTERRUPT:
+  71 0000 00400440 	 .word 1074020352
   72 0004 00800248 	 .word 1208123392
   73 0008 18       	 .byte 24
   74 0009 00000000 	 .space 11
   74      00000000 
   74      000000
-  75 0014 08       	 .byte 8
+  75 0014 00       	 .byte 0
   76 0015 000000   	 .space 3
-  77 0018 2D       	 .byte 45
-  78 0019 01       	 .byte 1
+  77 0018 0D       	 .byte 13
+  78 0019 00       	 .byte 0
   79 001a 0000     	 .space 2
-  80 001c 03       	 .byte 3
+  80 001c 05       	 .byte 5
   81 001d 3F       	 .byte 63
   82 001e 00       	 .byte 0
   83 001f 03       	 .byte 3
-  84 0020 02       	 .byte 2
-  85 0021 06       	 .byte 6
+  84 0020 00       	 .byte 0
+  85 0021 05       	 .byte 5
   86 0022 01       	 .byte 1
   87 0023 00       	 .space 1
-  88              	 .global RIGHT_INTERRUPT
-  89              	 .section .rodata.RIGHT_INTERRUPT,"a",%progbits
-  90              	 .align 2
-  93              	RIGHT_INTERRUPT:
-  94 0000 00400440 	 .word 1074020352
-  95 0004 00800248 	 .word 1208123392
-  96 0008 18       	 .byte 24
-  97 0009 00000000 	 .space 11
-  97      00000000 
-  97      000000
-  98 0014 00       	 .byte 0
-  99 0015 000000   	 .space 3
- 100 0018 2D       	 .byte 45
- 101 0019 00       	 .byte 0
- 102 001a 0000     	 .space 2
- 103 001c 07       	 .byte 7
- 104 001d 3F       	 .byte 63
- 105 001e 00       	 .byte 0
- 106 001f 03       	 .byte 3
- 107 0020 02       	 .byte 2
- 108 0021 05       	 .byte 5
- 109 0022 01       	 .byte 1
- 110 0023 00       	 .space 1
- 111              	 .global LIFT_INTERRUPT
- 112              	 .section .rodata.LIFT_INTERRUPT,"a",%progbits
- 113              	 .align 2
- 116              	LIFT_INTERRUPT:
- 117 0000 00400440 	 .word 1074020352
- 118 0004 00810248 	 .word 1208123648
- 119 0008 18       	 .byte 24
- 120 0009 00000000 	 .space 11
- 120      00000000 
- 120      000000
- 121 0014 00       	 .byte 0
- 122 0015 000000   	 .space 3
- 123 0018 3D       	 .byte 61
- 124 0019 00       	 .byte 0
- 125 001a 0000     	 .space 2
- 126 001c 08       	 .byte 8
- 127 001d 3F       	 .byte 63
- 128 001e 00       	 .byte 0
- 129 001f 00       	 .byte 0
- 130 0020 03       	 .byte 3
- 131 0021 05       	 .byte 5
- 132 0022 01       	 .byte 1
- 133 0023 00       	 .space 1
- 134              	 .global OPEN_INTERRUPT
- 135              	 .section .rodata.OPEN_INTERRUPT,"a",%progbits
- 136              	 .align 2
- 139              	OPEN_INTERRUPT:
- 140 0000 00480050 	 .word 1342195712
- 141 0004 00800248 	 .word 1208123392
- 142 0008 18       	 .byte 24
- 143 0009 00000000 	 .space 11
- 143      00000000 
- 143      000000
- 144 0014 00       	 .byte 0
- 145 0015 000000   	 .space 3
- 146 0018 3D       	 .byte 61
- 147 0019 01       	 .byte 1
- 148 001a 0000     	 .space 2
- 149 001c 04       	 .byte 4
- 150 001d 3F       	 .byte 63
- 151 001e 00       	 .byte 0
- 152 001f 01       	 .byte 1
- 153 0020 03       	 .byte 3
- 154 0021 09       	 .byte 9
- 155 0022 01       	 .byte 1
- 156 0023 00       	 .space 1
- 157              	 .global CLOSE_INTERRUPT
- 158              	 .section .rodata.CLOSE_INTERRUPT,"a",%progbits
- 159              	 .align 2
- 162              	CLOSE_INTERRUPT:
- 163 0000 00400440 	 .word 1074020352
- 164 0004 00810248 	 .word 1208123648
- 165 0008 18       	 .byte 24
- 166 0009 00000000 	 .space 11
- 166      00000000 
- 166      000000
- 167 0014 00       	 .byte 0
- 168 0015 000000   	 .space 3
- 169 0018 1D       	 .byte 29
- 170 0019 01       	 .byte 1
- 171 001a 0000     	 .space 2
- 172 001c 06       	 .byte 6
- 173 001d 3F       	 .byte 63
- 174 001e 00       	 .byte 0
- 175 001f 02       	 .byte 2
- 176 0020 01       	 .byte 1
- 177 0021 02       	 .byte 2
- 178 0022 01       	 .byte 1
- 179 0023 00       	 .space 1
- 180              	 .global ROTATE_INTERRUPT
- 181              	 .section .rodata.ROTATE_INTERRUPT,"a",%progbits
- 182              	 .align 2
- 185              	ROTATE_INTERRUPT:
- 186 0000 00400440 	 .word 1074020352
- 187 0004 00810248 	 .word 1208123648
- 188 0008 18       	 .byte 24
- 189 0009 00000000 	 .space 11
- 189      00000000 
- 189      000000
- 190 0014 00       	 .byte 0
- 191 0015 000000   	 .space 3
- 192 0018 0D       	 .byte 13
- 193 0019 00       	 .byte 0
- 194 001a 0000     	 .space 2
- 195 001c 05       	 .byte 5
- 196 001d 3F       	 .byte 63
- 197 001e 00       	 .byte 0
- 198 001f 01       	 .byte 1
- 199 0020 00       	 .byte 0
- 200 0021 0F       	 .byte 15
- 201 0022 01       	 .byte 1
- 202 0023 00       	 .space 1
- 203              	 .text
- 204              	.Letext0:
- 205              	 .file 1 "c:\\users\\forge-15r\\dave-ide-4.4.2-64bit\\eclipse\\arm-gcc-49\\arm-none-eabi\\include\\machine\\_default_types.h"
- 206              	 .file 2 "c:\\users\\forge-15r\\dave-ide-4.4.2-64bit\\eclipse\\arm-gcc-49\\arm-none-eabi\\include\\stdint.h"
- 207              	 .file 3 "C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Libraries/CMSIS/Infineon/XMC4700_series/Include/XMC4700.h"
- 208              	 .file 4 "C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Libraries/XMCLib/inc/xmc_gpio.h"
- 209              	 .file 5 "C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Libraries/XMCLib/inc/xmc4_gpio.h"
- 210              	 .file 6 "C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Libraries/XMCLib/inc/xmc_eru.h"
- 211              	 .file 7 "../Dave/Generated/PIN_INTERRUPT/pin_interrupt.h"
- 212              	 .file 8 "C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Libraries/CMSIS/Include/cmsis_gcc.h"
- 213              	 .file 9 "C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Libraries/CMSIS/Include/core_cm4.h"
- 214              	 .file 10 "C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Libraries/CMSIS/Infineon/XMC4700_series/Include/system_XMC4700.h"
- 215              	 .file 11 "../Dave/Generated/PIN_INTERRUPT/pin_interrupt_conf.c"
+  88              	 .text
+  89              	.Letext0:
+  90              	 .file 1 "c:\\users\\forge-15r\\dave-ide-4.4.2-64bit\\eclipse\\arm-gcc-49\\arm-none-eabi\\include\\machine\\_default_types.h"
+  91              	 .file 2 "c:\\users\\forge-15r\\dave-ide-4.4.2-64bit\\eclipse\\arm-gcc-49\\arm-none-eabi\\include\\stdint.h"
+  92              	 .file 3 "C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Libraries/CMSIS/Infineon/XMC4700_series/Include/XMC4700.h"
+  93              	 .file 4 "C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Libraries/XMCLib/inc/xmc_gpio.h"
+  94              	 .file 5 "C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Libraries/XMCLib/inc/xmc4_gpio.h"
+  95              	 .file 6 "C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Libraries/XMCLib/inc/xmc_eru.h"
+  96              	 .file 7 "../Dave/Generated/PIN_INTERRUPT/pin_interrupt.h"
+  97              	 .file 8 "C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Libraries/CMSIS/Include/cmsis_gcc.h"
+  98              	 .file 9 "C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Libraries/CMSIS/Include/core_cm4.h"
+  99              	 .file 10 "C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Libraries/CMSIS/Infineon/XMC4700_series/Include/system_XMC4700.h"
+ 100              	 .file 11 "../Dave/Generated/PIN_INTERRUPT/pin_interrupt_conf.c"
 DEFINED SYMBOLS
                             *ABS*:00000000 pin_interrupt_conf.c
-    {standard input}:24     .rodata.FORWARD_INTERRUPT:00000000 FORWARD_INTERRUPT
-    {standard input}:21     .rodata.FORWARD_INTERRUPT:00000000 $d
-    {standard input}:47     .rodata.BACKWARD_INTERRUPT:00000000 BACKWARD_INTERRUPT
-    {standard input}:44     .rodata.BACKWARD_INTERRUPT:00000000 $d
-    {standard input}:70     .rodata.LEFT_INTERRUPT:00000000 LEFT_INTERRUPT
-    {standard input}:67     .rodata.LEFT_INTERRUPT:00000000 $d
-    {standard input}:93     .rodata.RIGHT_INTERRUPT:00000000 RIGHT_INTERRUPT
-    {standard input}:90     .rodata.RIGHT_INTERRUPT:00000000 $d
-    {standard input}:116    .rodata.LIFT_INTERRUPT:00000000 LIFT_INTERRUPT
-    {standard input}:113    .rodata.LIFT_INTERRUPT:00000000 $d
-    {standard input}:139    .rodata.OPEN_INTERRUPT:00000000 OPEN_INTERRUPT
-    {standard input}:136    .rodata.OPEN_INTERRUPT:00000000 $d
-    {standard input}:162    .rodata.CLOSE_INTERRUPT:00000000 CLOSE_INTERRUPT
-    {standard input}:159    .rodata.CLOSE_INTERRUPT:00000000 $d
-    {standard input}:185    .rodata.ROTATE_INTERRUPT:00000000 ROTATE_INTERRUPT
-    {standard input}:182    .rodata.ROTATE_INTERRUPT:00000000 $d
+    {standard input}:24     .rodata.ROTATE_INTERRUPT:00000000 ROTATE_INTERRUPT
+    {standard input}:21     .rodata.ROTATE_INTERRUPT:00000000 $d
+    {standard input}:47     .rodata.DIRECTION_INTERRUPT:00000000 DIRECTION_INTERRUPT
+    {standard input}:44     .rodata.DIRECTION_INTERRUPT:00000000 $d
+    {standard input}:70     .rodata.CLAMP_INTERRUPT:00000000 CLAMP_INTERRUPT
+    {standard input}:67     .rodata.CLAMP_INTERRUPT:00000000 $d
 
 NO UNDEFINED SYMBOLS

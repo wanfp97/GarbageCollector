@@ -61,27 +61,12 @@
 #define PIN_INTERRUPT_PATCH_VERSION (2U)
 
 /**< Mapped IRQ Node Number */
-#define FORWARD_IRQHandler IRQ_Hdlr_2  
+#define ROTATE_IRQHandler IRQ_Hdlr_3  
 		
 /**< Mapped IRQ Node Number */
-#define BACKWARD_IRQHandler IRQ_Hdlr_1  
+#define DIRECTION_IRQHandler IRQ_Hdlr_4  
 		
 /**< Mapped IRQ Node Number */
-#define LEFT_IRQHandler IRQ_Hdlr_3  
-		
-/**< Mapped IRQ Node Number */
-#define RIGHT_IRQHandler IRQ_Hdlr_7  
-		
-/**< Mapped IRQ Node Number */
-#define LIFT_INTERRUPT_IRQHandler IRQ_Hdlr_8  
-		
-/**< Mapped IRQ Node Number */
-#define OPEN_INTERRUPT_IRQHandler IRQ_Hdlr_4  
-		
-/**< Mapped IRQ Node Number */
-#define CLOSE_INTERRUPT_IRQHandler IRQ_Hdlr_6  
-		
-/**< Mapped IRQ Node Number */
-#define ROTATE_INTERRUPT_IRQHandler IRQ_Hdlr_5  
+#define CLAMP_IRQHandler IRQ_Hdlr_5  
 		
 #endif /* End of PIN_INTERRUPT_CONF_H */

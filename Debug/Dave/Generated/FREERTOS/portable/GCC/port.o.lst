@@ -386,202 +386,202 @@
  166 0012 09D0     	 beq .L6
  167              	.LBB31:
  168              	.LBB32:
- 169              	 .file 2 "C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC/portmacro.h"
-   1:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /*
-   2:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * FreeRTOS Kernel V10.2.1
-   3:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * Copyright (C) 2019 Amazon.com, Inc. or its affiliates.  All Rights Reserved.
-   4:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  *
-   5:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * Permission is hereby granted, free of charge, to any person obtaining a copy of
-   6:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * this software and associated documentation files (the "Software"), to deal in
-   7:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * the Software without restriction, including without limitation the rights to
-   8:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
-   9:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * the Software, and to permit persons to whom the Software is furnished to do so,
-  10:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * subject to the following conditions:
-  11:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  *
-  12:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * The above copyright notice and this permission notice shall be included in all
-  13:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * copies or substantial portions of the Software.
-  14:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  *
-  15:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-  16:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
-  17:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
-  18:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
-  19:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
-  20:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-  21:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  *
-  22:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * http://www.FreeRTOS.org
-  23:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * http://aws.amazon.com/freertos
-  24:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  *
-  25:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * 1 tab == 4 spaces!
-  26:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  */
-  27:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
-  28:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
-  29:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #ifndef PORTMACRO_H
-  30:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define PORTMACRO_H
-  31:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
-  32:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #ifdef __cplusplus
-  33:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** extern "C" {
-  34:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #endif
-  35:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
-  36:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /*-----------------------------------------------------------
-  37:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * Port specific definitions.
-  38:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  *
-  39:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * The settings in this file configure FreeRTOS correctly for the
-  40:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * given hardware and compiler.
-  41:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  *
-  42:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * These settings should not be altered.
-  43:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  *-----------------------------------------------------------
-  44:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  */
-  45:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
-  46:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /* Type definitions. */
-  47:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portCHAR		char
-  48:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portFLOAT		float
-  49:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portDOUBLE		double
-  50:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portLONG		long
-  51:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portSHORT		short
-  52:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portSTACK_TYPE	uint32_t
-  53:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portBASE_TYPE	long
-  54:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
-  55:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** typedef portSTACK_TYPE StackType_t;
-  56:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** typedef long BaseType_t;
-  57:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** typedef unsigned long UBaseType_t;
-  58:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
-  59:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #if( configUSE_16_BIT_TICKS == 1 )
-  60:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	typedef uint16_t TickType_t;
-  61:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	#define portMAX_DELAY ( TickType_t ) 0xffff
-  62:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #else
-  63:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	typedef uint32_t TickType_t;
-  64:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	#define portMAX_DELAY ( TickType_t ) 0xffffffffUL
-  65:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
-  66:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	/* 32-bit tick type on a 32-bit architecture, so reads of the tick count do
-  67:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	not need to be guarded with a critical section. */
-  68:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	#define portTICK_TYPE_IS_ATOMIC 1
-  69:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #endif
-  70:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /*-----------------------------------------------------------*/
-  71:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
-  72:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /* Architecture specifics. */
-  73:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portSTACK_GROWTH			( -1 )
-  74:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portTICK_PERIOD_MS			( ( TickType_t ) 1000 / configTICK_RATE_HZ )
-  75:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portBYTE_ALIGNMENT			8
-  76:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /*-----------------------------------------------------------*/
-  77:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
-  78:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /* Scheduler utilities. */
-  79:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portYIELD() 															\
-  80:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** {																				\
-  81:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	/* Set a PendSV to request a context switch. */								\
-  82:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	portNVIC_INT_CTRL_REG = portNVIC_PENDSVSET_BIT;								\
-  83:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 																				\
-  84:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	/* Barriers are normally not required but do ensure the code is completely	\
-  85:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	within the specified behaviour for the architecture. */						\
-  86:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	__asm volatile( "dsb" ::: "memory" );										\
-  87:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	__asm volatile( "isb" );													\
-  88:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** }
-  89:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
-  90:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portNVIC_INT_CTRL_REG		( * ( ( volatile uint32_t * ) 0xe000ed04 ) )
-  91:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portNVIC_PENDSVSET_BIT		( 1UL << 28UL )
-  92:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portEND_SWITCHING_ISR( xSwitchRequired ) if( xSwitchRequired != pdFALSE ) portYIELD()
-  93:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portYIELD_FROM_ISR( x ) portEND_SWITCHING_ISR( x )
-  94:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /*-----------------------------------------------------------*/
-  95:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
-  96:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /* Critical section management. */
-  97:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** extern void vPortEnterCritical( void );
-  98:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** extern void vPortExitCritical( void );
-  99:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portSET_INTERRUPT_MASK_FROM_ISR()		ulPortRaiseBASEPRI()
- 100:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portCLEAR_INTERRUPT_MASK_FROM_ISR(x)	vPortSetBASEPRI(x)
- 101:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portDISABLE_INTERRUPTS()				vPortRaiseBASEPRI()
- 102:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portENABLE_INTERRUPTS()					vPortSetBASEPRI(0)
- 103:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portENTER_CRITICAL()					vPortEnterCritical()
- 104:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portEXIT_CRITICAL()						vPortExitCritical()
- 105:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
- 106:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /*-----------------------------------------------------------*/
- 107:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
- 108:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /* Task function macros as described on the FreeRTOS.org WEB site.  These are
- 109:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** not necessary for to use this port.  They are defined so the common demo files
- 110:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** (which build with all the ports) will build. */
- 111:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portTASK_FUNCTION_PROTO( vFunction, pvParameters ) void vFunction( void *pvParameters )
- 112:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portTASK_FUNCTION( vFunction, pvParameters ) void vFunction( void *pvParameters )
- 113:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /*-----------------------------------------------------------*/
- 114:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
- 115:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /* Tickless idle/low power functionality. */
- 116:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #ifndef portSUPPRESS_TICKS_AND_SLEEP
- 117:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	extern void vPortSuppressTicksAndSleep( TickType_t xExpectedIdleTime );
- 118:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	#define portSUPPRESS_TICKS_AND_SLEEP( xExpectedIdleTime ) vPortSuppressTicksAndSleep( xExpectedIdl
- 119:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #endif
- 120:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /*-----------------------------------------------------------*/
- 121:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
- 122:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /* Architecture specific optimisations. */
- 123:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #ifndef configUSE_PORT_OPTIMISED_TASK_SELECTION
- 124:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	#define configUSE_PORT_OPTIMISED_TASK_SELECTION 1
- 125:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #endif
- 126:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
- 127:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #if configUSE_PORT_OPTIMISED_TASK_SELECTION == 1
- 128:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
- 129:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	/* Generic helper function. */
- 130:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	__attribute__( ( always_inline ) ) static inline uint8_t ucPortCountLeadingZeros( uint32_t ulBitma
- 131:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	{
- 132:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	uint8_t ucReturn;
- 133:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
- 134:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 		__asm volatile ( "clz %0, %1" : "=r" ( ucReturn ) : "r" ( ulBitmap ) : "memory" );
- 135:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 		return ucReturn;
- 136:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	}
- 137:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
- 138:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	/* Check the configuration. */
- 139:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	#if( configMAX_PRIORITIES > 32 )
- 140:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 		#error configUSE_PORT_OPTIMISED_TASK_SELECTION can only be set to 1 when configMAX_PRIORITIES is 
- 141:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	#endif
- 142:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
- 143:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	/* Store/clear the ready priorities in a bit map. */
- 144:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	#define portRECORD_READY_PRIORITY( uxPriority, uxReadyPriorities ) ( uxReadyPriorities ) |= ( 1UL 
- 145:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	#define portRESET_READY_PRIORITY( uxPriority, uxReadyPriorities ) ( uxReadyPriorities ) &= ~( 1UL 
- 146:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
- 147:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	/*-----------------------------------------------------------*/
- 148:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
- 149:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	#define portGET_HIGHEST_PRIORITY( uxTopPriority, uxReadyPriorities ) uxTopPriority = ( 31UL - ( ui
- 150:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
- 151:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #endif /* configUSE_PORT_OPTIMISED_TASK_SELECTION */
- 152:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
- 153:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /*-----------------------------------------------------------*/
- 154:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
- 155:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #ifdef configASSERT
- 156:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	void vPortValidateInterruptPriority( void );
- 157:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	#define portASSERT_IF_INTERRUPT_PRIORITY_INVALID() 	vPortValidateInterruptPriority()
- 158:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #endif
- 159:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
- 160:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /* portNOP() is not required by this port. */
- 161:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portNOP()
- 162:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
- 163:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portINLINE	__inline
- 164:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
- 165:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #ifndef portFORCE_INLINE
- 166:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	#define portFORCE_INLINE inline __attribute__(( always_inline))
- 167:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #endif
- 168:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
- 169:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** portFORCE_INLINE static BaseType_t xPortIsInsideInterrupt( void )
- 170:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** {
- 171:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** uint32_t ulCurrentInterrupt;
- 172:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** BaseType_t xReturn;
- 173:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
- 174:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	/* Obtain the number of the currently executing interrupt. */
- 175:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	__asm volatile( "mrs %0, ipsr" : "=r"( ulCurrentInterrupt ) :: "memory" );
- 176:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
- 177:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	if( ulCurrentInterrupt == 0 )
- 178:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	{
- 179:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 		xReturn = pdFALSE;
- 180:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	}
- 181:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	else
- 182:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	{
- 183:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 		xReturn = pdTRUE;
- 184:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	}
- 185:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
- 186:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	return xReturn;
- 187:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** }
- 188:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
- 189:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /*-----------------------------------------------------------*/
- 190:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
- 191:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** portFORCE_INLINE static void vPortRaiseBASEPRI( void )
- 192:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** {
- 193:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** uint32_t ulNewBASEPRI;
- 194:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
- 195:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	__asm volatile
+ 169              	 .file 2 "C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC/portmacro.h"
+   1:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /*
+   2:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * FreeRTOS Kernel V10.2.1
+   3:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * Copyright (C) 2019 Amazon.com, Inc. or its affiliates.  All Rights Reserved.
+   4:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  *
+   5:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * Permission is hereby granted, free of charge, to any person obtaining a copy of
+   6:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * this software and associated documentation files (the "Software"), to deal in
+   7:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * the Software without restriction, including without limitation the rights to
+   8:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+   9:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * the Software, and to permit persons to whom the Software is furnished to do so,
+  10:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * subject to the following conditions:
+  11:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  *
+  12:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * The above copyright notice and this permission notice shall be included in all
+  13:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * copies or substantial portions of the Software.
+  14:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  *
+  15:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  16:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+  17:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+  18:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+  19:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+  20:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+  21:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  *
+  22:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * http://www.FreeRTOS.org
+  23:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * http://aws.amazon.com/freertos
+  24:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  *
+  25:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * 1 tab == 4 spaces!
+  26:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  */
+  27:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+  28:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+  29:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #ifndef PORTMACRO_H
+  30:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define PORTMACRO_H
+  31:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+  32:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #ifdef __cplusplus
+  33:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** extern "C" {
+  34:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #endif
+  35:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+  36:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /*-----------------------------------------------------------
+  37:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * Port specific definitions.
+  38:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  *
+  39:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * The settings in this file configure FreeRTOS correctly for the
+  40:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * given hardware and compiler.
+  41:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  *
+  42:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  * These settings should not be altered.
+  43:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  *-----------------------------------------------------------
+  44:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h ****  */
+  45:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+  46:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /* Type definitions. */
+  47:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portCHAR		char
+  48:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portFLOAT		float
+  49:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portDOUBLE		double
+  50:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portLONG		long
+  51:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portSHORT		short
+  52:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portSTACK_TYPE	uint32_t
+  53:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portBASE_TYPE	long
+  54:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+  55:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** typedef portSTACK_TYPE StackType_t;
+  56:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** typedef long BaseType_t;
+  57:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** typedef unsigned long UBaseType_t;
+  58:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+  59:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #if( configUSE_16_BIT_TICKS == 1 )
+  60:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	typedef uint16_t TickType_t;
+  61:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	#define portMAX_DELAY ( TickType_t ) 0xffff
+  62:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #else
+  63:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	typedef uint32_t TickType_t;
+  64:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	#define portMAX_DELAY ( TickType_t ) 0xffffffffUL
+  65:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+  66:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	/* 32-bit tick type on a 32-bit architecture, so reads of the tick count do
+  67:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	not need to be guarded with a critical section. */
+  68:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	#define portTICK_TYPE_IS_ATOMIC 1
+  69:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #endif
+  70:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /*-----------------------------------------------------------*/
+  71:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+  72:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /* Architecture specifics. */
+  73:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portSTACK_GROWTH			( -1 )
+  74:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portTICK_PERIOD_MS			( ( TickType_t ) 1000 / configTICK_RATE_HZ )
+  75:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portBYTE_ALIGNMENT			8
+  76:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /*-----------------------------------------------------------*/
+  77:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+  78:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /* Scheduler utilities. */
+  79:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portYIELD() 															\
+  80:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** {																				\
+  81:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	/* Set a PendSV to request a context switch. */								\
+  82:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	portNVIC_INT_CTRL_REG = portNVIC_PENDSVSET_BIT;								\
+  83:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 																				\
+  84:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	/* Barriers are normally not required but do ensure the code is completely	\
+  85:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	within the specified behaviour for the architecture. */						\
+  86:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	__asm volatile( "dsb" ::: "memory" );										\
+  87:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	__asm volatile( "isb" );													\
+  88:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** }
+  89:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+  90:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portNVIC_INT_CTRL_REG		( * ( ( volatile uint32_t * ) 0xe000ed04 ) )
+  91:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portNVIC_PENDSVSET_BIT		( 1UL << 28UL )
+  92:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portEND_SWITCHING_ISR( xSwitchRequired ) if( xSwitchRequired != pdFALSE ) portYIELD()
+  93:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portYIELD_FROM_ISR( x ) portEND_SWITCHING_ISR( x )
+  94:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /*-----------------------------------------------------------*/
+  95:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+  96:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /* Critical section management. */
+  97:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** extern void vPortEnterCritical( void );
+  98:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** extern void vPortExitCritical( void );
+  99:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portSET_INTERRUPT_MASK_FROM_ISR()		ulPortRaiseBASEPRI()
+ 100:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portCLEAR_INTERRUPT_MASK_FROM_ISR(x)	vPortSetBASEPRI(x)
+ 101:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portDISABLE_INTERRUPTS()				vPortRaiseBASEPRI()
+ 102:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portENABLE_INTERRUPTS()					vPortSetBASEPRI(0)
+ 103:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portENTER_CRITICAL()					vPortEnterCritical()
+ 104:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portEXIT_CRITICAL()						vPortExitCritical()
+ 105:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+ 106:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /*-----------------------------------------------------------*/
+ 107:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+ 108:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /* Task function macros as described on the FreeRTOS.org WEB site.  These are
+ 109:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** not necessary for to use this port.  They are defined so the common demo files
+ 110:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** (which build with all the ports) will build. */
+ 111:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portTASK_FUNCTION_PROTO( vFunction, pvParameters ) void vFunction( void *pvParameters )
+ 112:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portTASK_FUNCTION( vFunction, pvParameters ) void vFunction( void *pvParameters )
+ 113:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /*-----------------------------------------------------------*/
+ 114:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+ 115:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /* Tickless idle/low power functionality. */
+ 116:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #ifndef portSUPPRESS_TICKS_AND_SLEEP
+ 117:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	extern void vPortSuppressTicksAndSleep( TickType_t xExpectedIdleTime );
+ 118:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	#define portSUPPRESS_TICKS_AND_SLEEP( xExpectedIdleTime ) vPortSuppressTicksAndSleep( xExpectedIdl
+ 119:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #endif
+ 120:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /*-----------------------------------------------------------*/
+ 121:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+ 122:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /* Architecture specific optimisations. */
+ 123:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #ifndef configUSE_PORT_OPTIMISED_TASK_SELECTION
+ 124:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	#define configUSE_PORT_OPTIMISED_TASK_SELECTION 1
+ 125:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #endif
+ 126:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+ 127:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #if configUSE_PORT_OPTIMISED_TASK_SELECTION == 1
+ 128:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+ 129:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	/* Generic helper function. */
+ 130:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	__attribute__( ( always_inline ) ) static inline uint8_t ucPortCountLeadingZeros( uint32_t ulBitma
+ 131:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	{
+ 132:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	uint8_t ucReturn;
+ 133:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+ 134:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 		__asm volatile ( "clz %0, %1" : "=r" ( ucReturn ) : "r" ( ulBitmap ) : "memory" );
+ 135:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 		return ucReturn;
+ 136:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	}
+ 137:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+ 138:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	/* Check the configuration. */
+ 139:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	#if( configMAX_PRIORITIES > 32 )
+ 140:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 		#error configUSE_PORT_OPTIMISED_TASK_SELECTION can only be set to 1 when configMAX_PRIORITIES is 
+ 141:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	#endif
+ 142:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+ 143:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	/* Store/clear the ready priorities in a bit map. */
+ 144:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	#define portRECORD_READY_PRIORITY( uxPriority, uxReadyPriorities ) ( uxReadyPriorities ) |= ( 1UL 
+ 145:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	#define portRESET_READY_PRIORITY( uxPriority, uxReadyPriorities ) ( uxReadyPriorities ) &= ~( 1UL 
+ 146:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+ 147:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	/*-----------------------------------------------------------*/
+ 148:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+ 149:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	#define portGET_HIGHEST_PRIORITY( uxTopPriority, uxReadyPriorities ) uxTopPriority = ( 31UL - ( ui
+ 150:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+ 151:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #endif /* configUSE_PORT_OPTIMISED_TASK_SELECTION */
+ 152:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+ 153:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /*-----------------------------------------------------------*/
+ 154:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+ 155:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #ifdef configASSERT
+ 156:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	void vPortValidateInterruptPriority( void );
+ 157:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	#define portASSERT_IF_INTERRUPT_PRIORITY_INVALID() 	vPortValidateInterruptPriority()
+ 158:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #endif
+ 159:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+ 160:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /* portNOP() is not required by this port. */
+ 161:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portNOP()
+ 162:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+ 163:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #define portINLINE	__inline
+ 164:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+ 165:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #ifndef portFORCE_INLINE
+ 166:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	#define portFORCE_INLINE inline __attribute__(( always_inline))
+ 167:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** #endif
+ 168:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+ 169:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** portFORCE_INLINE static BaseType_t xPortIsInsideInterrupt( void )
+ 170:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** {
+ 171:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** uint32_t ulCurrentInterrupt;
+ 172:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** BaseType_t xReturn;
+ 173:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+ 174:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	/* Obtain the number of the currently executing interrupt. */
+ 175:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	__asm volatile( "mrs %0, ipsr" : "=r"( ulCurrentInterrupt ) :: "memory" );
+ 176:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+ 177:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	if( ulCurrentInterrupt == 0 )
+ 178:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	{
+ 179:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 		xReturn = pdFALSE;
+ 180:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	}
+ 181:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	else
+ 182:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	{
+ 183:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 		xReturn = pdTRUE;
+ 184:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	}
+ 185:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+ 186:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	return xReturn;
+ 187:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** }
+ 188:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+ 189:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /*-----------------------------------------------------------*/
+ 190:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+ 191:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** portFORCE_INLINE static void vPortRaiseBASEPRI( void )
+ 192:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** {
+ 193:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** uint32_t ulNewBASEPRI;
+ 194:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+ 195:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	__asm volatile
  170              	 .loc 2 195 0 discriminator 1
  171              	
  172 0014 4FF0FC03 	 mov r3,#252
@@ -1338,40 +1338,40 @@
  735 0036 3B60     	 str r3,[r7]
  736              	.LBB50:
  737              	.LBB51:
- 196:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	(
- 197:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 		"	mov %0, %1												\n"	\
- 198:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 		"	msr basepri, %0											\n" \
- 199:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 		"	isb														\n" \
- 200:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 		"	dsb														\n" \
- 201:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 		:"=r" (ulNewBASEPRI) : "i" ( configMAX_SYSCALL_INTERRUPT_PRIORITY ) : "memory"
- 202:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	);
- 203:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** }
- 204:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
- 205:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /*-----------------------------------------------------------*/
- 206:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
- 207:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** portFORCE_INLINE static uint32_t ulPortRaiseBASEPRI( void )
- 208:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** {
- 209:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** uint32_t ulOriginalBASEPRI, ulNewBASEPRI;
- 210:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
- 211:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	__asm volatile
- 212:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	(
- 213:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 		"	mrs %0, basepri											\n" \
- 214:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 		"	mov %1, %2												\n"	\
- 215:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 		"	msr basepri, %1											\n" \
- 216:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 		"	isb														\n" \
- 217:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 		"	dsb														\n" \
- 218:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 		:"=r" (ulOriginalBASEPRI), "=r" (ulNewBASEPRI) : "i" ( configMAX_SYSCALL_INTERRUPT_PRIORITY ) : "
- 219:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	);
- 220:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
- 221:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	/* This return will not be reached but is necessary to prevent compiler
- 222:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	warnings. */
- 223:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	return ulOriginalBASEPRI;
- 224:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** }
- 225:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /*-----------------------------------------------------------*/
- 226:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
- 227:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** portFORCE_INLINE static void vPortSetBASEPRI( uint32_t ulNewMaskValue )
- 228:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** {
- 229:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	__asm volatile
+ 196:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	(
+ 197:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 		"	mov %0, %1												\n"	\
+ 198:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 		"	msr basepri, %0											\n" \
+ 199:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 		"	isb														\n" \
+ 200:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 		"	dsb														\n" \
+ 201:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 		:"=r" (ulNewBASEPRI) : "i" ( configMAX_SYSCALL_INTERRUPT_PRIORITY ) : "memory"
+ 202:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	);
+ 203:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** }
+ 204:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+ 205:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /*-----------------------------------------------------------*/
+ 206:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+ 207:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** portFORCE_INLINE static uint32_t ulPortRaiseBASEPRI( void )
+ 208:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** {
+ 209:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** uint32_t ulOriginalBASEPRI, ulNewBASEPRI;
+ 210:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+ 211:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	__asm volatile
+ 212:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	(
+ 213:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 		"	mrs %0, basepri											\n" \
+ 214:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 		"	mov %1, %2												\n"	\
+ 215:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 		"	msr basepri, %1											\n" \
+ 216:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 		"	isb														\n" \
+ 217:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 		"	dsb														\n" \
+ 218:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 		:"=r" (ulOriginalBASEPRI), "=r" (ulNewBASEPRI) : "i" ( configMAX_SYSCALL_INTERRUPT_PRIORITY ) : "
+ 219:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	);
+ 220:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+ 221:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	/* This return will not be reached but is necessary to prevent compiler
+ 222:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	warnings. */
+ 223:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	return ulOriginalBASEPRI;
+ 224:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** }
+ 225:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** /*-----------------------------------------------------------*/
+ 226:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 
+ 227:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** portFORCE_INLINE static void vPortSetBASEPRI( uint32_t ulNewMaskValue )
+ 228:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** {
+ 229:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	__asm volatile
  738              	 .loc 2 229 0
  739 0038 3B68     	 ldr r3,[r7]
  740              	
@@ -1552,7 +1552,7 @@
  851              	 .cfi_def_cfa_register 7
  852              	.LBB52:
  853              	.LBB53:
- 195:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	(
+ 195:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	(
  854              	 .loc 2 195 0
  855              	
  856 0006 4FF0FC03 	 mov r3,#252
@@ -1997,7 +1997,7 @@
  1036 0024 09D2     	 bcs .L51
  1037              	.LBB56:
  1038              	.LBB57:
- 195:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	(
+ 195:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	(
  1039              	 .loc 2 195 0 discriminator 1
  1040              	
  1041 0026 4FF0FC03 	 mov r3,#252
@@ -2040,7 +2040,7 @@
  1062 0048 09D9     	 bls .L50
  1063              	.LBB58:
  1064              	.LBB59:
- 195:C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	(
+ 195:C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/portable/GCC\portmacro.h **** 	(
  1065              	 .loc 2 195 0 discriminator 1
  1066              	
  1067 004a 4FF0FC03 	 mov r3,#252
@@ -2084,10 +2084,10 @@
  1105              	.Letext0:
  1106              	 .file 3 "c:\\users\\forge-15r\\dave-ide-4.4.2-64bit\\eclipse\\arm-gcc-49\\arm-none-eabi\\include\\machine\\_default_types.h"
  1107              	 .file 4 "c:\\users\\forge-15r\\dave-ide-4.4.2-64bit\\eclipse\\arm-gcc-49\\arm-none-eabi\\include\\stdint.h"
- 1108              	 .file 5 "C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Dave/Generated/FREERTOS/projdefs.h"
- 1109              	 .file 6 "C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Libraries/CMSIS/Include/cmsis_gcc.h"
- 1110              	 .file 7 "C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Libraries/CMSIS/Include/core_cm4.h"
- 1111              	 .file 8 "C:/Workspaces/DAVE-4.4.2-64Bit/test/Garbage_collector/Libraries/CMSIS/Infineon/XMC4700_series/Include/system_XMC4700.h"
+ 1108              	 .file 5 "C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Dave/Generated/FREERTOS/projdefs.h"
+ 1109              	 .file 6 "C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Libraries/CMSIS/Include/cmsis_gcc.h"
+ 1110              	 .file 7 "C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Libraries/CMSIS/Include/core_cm4.h"
+ 1111              	 .file 8 "C:/Workspaces/DAVE-4.4.2-64Bit/GarbageCollector/Garbage_collector/Libraries/CMSIS/Infineon/XMC4700_series/Include/system_XMC4700.h"
 DEFINED SYMBOLS
                             *ABS*:00000000 port.c
     {standard input}:20     .data.uxCriticalNesting:00000000 $d
